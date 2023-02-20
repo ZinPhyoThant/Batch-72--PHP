@@ -1,0 +1,7 @@
+Ex1 
+1.array 1 khu 
+2.array 1 = 2-20 
+3.array 2 = 5-50 
+4
+5data loop 
+6.[0]

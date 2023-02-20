@@ -1,0 +1,7 @@
+echo    - output
+/- echo $varible =value;
+-------------------------------
+$       - DataType non
+/-Array - Svariable=array();
+-------------------------------
+if the same key word - / infront of the key
