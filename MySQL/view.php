@@ -18,11 +18,11 @@ $sql->execute();
     }
     ?>
     <tr>
-        <td><?php echo $name; ?></td>
+        <td><?php echo $name; ?></td>/
         <td><?php echo $category; ?></td>
         <td><?php echo $price; ?></td>
         <td><?php echo $description; ?></td>
-        <td><img src="../a.jpg" alt=""><?php echo $image; ?></td>
+        <td><img src="images/<?php echo $image; ?>" alt=""><?php echo $image; ?></td>
     </tr>
     <?php
     ?>

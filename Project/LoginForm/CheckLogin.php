@@ -1,11 +1,11 @@
 <?php
-$user = $_POST['user'];
+$uid = $_POST['uid'];
 $pwd = $_POST['pwd'];
 
-if ($user == "user1" && $pwd == 123) {
+if ($uid == "root" && $pwd == 123) {
     session_start();
-    $_SESSION['user'] = $user;
-    echo "Welcom $_SESSIO[user]";
+    $_SESSION['uid'] = $uid;
+    echo "Welcome $_SESSION[uid]";
 } else {
     header("Location: login.php");
 }

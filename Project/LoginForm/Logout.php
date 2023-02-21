@@ -1,12 +1,12 @@
 <?php
-echo "logged out successfully";
+ echo "logged out successfully";
 
-if (isset($_SESSION['user'])) {
-    $userdata = $_SESSION['user'];
-    echo $userdata;
-}
+ if(isset($_SESSION['uid'])){
+    $uiddata = $_SESSION['uid'];
+    echo $uiddata;
+ }
 session_start();
-session_destroy();
-?>
-
-<a href="login.php">Login again</a>
+ session_destroy();
+ ?>
+ 
+ <a href="login.php">Login again</a>
